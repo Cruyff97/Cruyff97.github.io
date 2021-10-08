@@ -1,0 +1,341 @@
+body {
+ cursor: default;
+}
+.typing-sport1 {
+  width: 9ch;
+  animation: typing 2s steps(9), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  margin-left: 3vw;
+  
+}
+a:link {
+  color: white;
+text-decoration: none;
+}
+.col-sm {
+  margin-top: 250px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.premio{
+  color: white;
+  margin-bottom: 5px;
+}
+.first { width: 900px;
+  background-size: 379px;
+  background-repeat: no-repeat;
+z-index: 100000;
+}
+.second {
+  z-index: 100000;
+}
+.counterj {
+  color: white;
+}
+.counter {
+  transition: .6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.counter:hover {
+  transform: scale(1.1);
+}
+.premiof {
+  transition: .6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.premiof:hover {
+  transform: scale(1.1);
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.sport {
+    font-size: 3vw;
+    top: 11vw;
+    left: 3vw;
+   position: absolute;
+   
+    
+    
+    color: white;
+    text-decoration-line: underline;
+    text-underline-offset: 0.5vw;
+    text-decoration-color: #d17728;
+    
+}
+#wrapper {
+    
+    align-items:center;
+    float: left;
+    width: 100%; 
+    }
+  
+ #my-card{
+  width: 30vw; 
+  border-left: 4vw;
+  float: left;
+
+ }  
+ 
+.figure-caption {
+  color:blue;
+  font-size: 50px;
+
+}
+
+#a{
+  
+    width: 30vw;
+    margin-top: 20vw;
+    margin-left: 4vw;
+    float: left;
+    height: 35vw;
+    transition: .3s ease-in-out;
+    overflow: hidden;
+   
+    position: relative;
+}
+
+
+#b{
+    width: 30vw;
+    margin-top: 20vw;
+    height: 35vw;
+    float: left;
+}
+#c{
+  
+    width: 30vw;
+    height: 35vw;
+    margin-top: 20vw;
+    float: left;
+}
+#d{
+  
+    width: 30vw;
+    height: 35vw;
+    margin-left: 4vw;
+    float: left;
+}
+#e{
+    
+    width: 30vw;
+    height: 35vw;
+    
+    float: left;
+}
+#f{
+    
+    width: 30vw;
+    
+    height: 35vw;
+    float: left;
+}
+#g{
+    
+    width: 30vw;
+    height: 35vw;
+    float: left;
+    margin-left: 4vw;
+   
+ 
+}
+#i{
+    
+    width: 30vw;
+    height: 35vw;
+    
+    float: left;
+}
+#l{
+    
+  width: 30vw;
+  height: 35vw;
+ 
+  float: left;
+}
+
+@media (max-width:900px) 
+ 
+ {
+  body::before {
+    top: 0;
+		content: "";
+		background-size: cover;
+		background-position-x: center;
+		position: absolute;
+		opacity: 0.17;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-repeat: repeat;
+		background-attachment:local;
+		overflow: visible;
+		
+    background-image: url("/img/41r.jpg")
+  } 
+  #a{
+    margin-top: 40vw;
+    height:70vw;
+    width: auto;
+    float: none;
+    
+    }
+    #b {
+      margin-top: 0;
+      height:70vw;
+    width: auto;
+    margin-left: 15%;
+    float: none;
+      
+    }
+    #c {
+      margin-top: 0;
+      height:70vw;
+    width: auto;
+    margin-left: 15%;
+    float: none;
+    }
+    #d {
+      margin-top: 0;
+      height:70vw;
+    width: auto;
+    margin-left: 15%;
+    float: none;
+    }
+    #e {
+      margin-top: 0;
+      height:70vw;
+    width: auto;
+    margin-left: 15%;
+    float: none;
+    }
+    #f {
+      margin-top: 0;
+      height:70vw;
+    width: auto;
+    margin-left: 15%;
+    float: none;
+    }
+    #g {
+      margin-top: 0;
+      height:70vw;
+    width: auto;
+    margin-left: 15%;
+    float: none;
+    }
+    #i {
+      margin-top: 0;
+      height:70vw;
+    width: auto;
+    margin-left: 15%;
+    float: none;
+    }
+    #l {
+      margin-top: 0;
+      height:70vw;
+    width: auto;
+    margin-left: 15%;
+    float: none;
+    }
+    .sport {
+      top: 30vw;
+      font-size: 5.5vw;
+      left: 1vw;
+    }
+  }
+
+* {
+  max-width: 100%;
+} 
+img {
+max-width: 100%;
+display: block;
+}
+
+/*** Default shared CSS ****/
+figure.figurefx {
+padding: 0;
+display: block;
+position: relative;
+overflow: hidden; /* hide overflowing elements by default */
+}
+
+figure.figurefx figcaption {
+position: absolute;
+display: block;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+text-align: center;
+background: white;
+padding: 15px;
+z-index: 100;
+width: 100%;
+max-height: 100%;
+overflow: hidden;
+top: 50%;
+left: 0;
+-moz-transform: translate3d(-100%, -50%, 0); /* position caption outside layout horizontally and centered vertically */
+-webkit-transform: translate3d(-100%, -50%, 0);
+transform: translate3d(-100%, -50%, 0);
+opacity: 0;
+-moz-transition: all 0.5s;
+-webkit-transition: all 0.5s;
+transition: all 0.5s;
+}
+
+figure.figurefx figcaption a {
+text-decoration: none;
+}
+
+/*** Push Up effect ****/
+figure.pushup img {
+-moz-transform: translate3d(0, 0, 0);
+-webkit-transform: translate3d(0, 0, 0);
+transform: translate3d(0, 0, 0);
+-moz-transition: all 0.5s;
+-webkit-transition: all 0.5s;
+transition: all 0.5s;
+}
+
+figure.pushup figcaption {
+top: 100%;
+opacity: 1;
+-moz-transform: translate3d(0, 0, 0);
+-webkit-transform: translate3d(0, 0, 0);
+transform: translate3d(0, 0, 0);
+}
+
+
+figure.pushup:hover img {
+-moz-transform: translate3d(0, -10px, 0); /* move image up vertically a bit for parallax effect */
+-webkit-transform: translate3d(0, -10px, 0);
+transform: translate3d(0, -10px, 0);
+opacity: .5;
+
+}
+
+figure.pushup:hover figcaption{
+-moz-transform: translate3d(0, -100%, 0); /* move caption up vertically to fully reveal caption */
+-webkit-transform: translate3d(0, -100%, 0);
+transform: translate3d(0, -100%, 0);
+-moz-transition: all 0.5s;
+-webkit-transition: all 0.5s;
+transition: all 0.5s;
+box-shadow: 0px -2px 28px rgba(0, 0, 0, 0.3);
+}
+.containerr {
+  margin-left: 0 !important;
+}
